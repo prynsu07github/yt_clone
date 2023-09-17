@@ -1,0 +1,83 @@
+.container {
+  position: relative;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-page {
+  /* border: 1px solid white; */
+  height: auto;
+  width: 300px;
+  padding: 23px;
+  box-shadow: 5px 5px 12px black;
+  border-top-left-radius: 50px;
+  /* border-bottom-right-radius: 50px; */
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-look {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 50px;
+  background-color: #272829;
+  box-shadow: 2px 2px 6px black;
+}
+
+.log-in-page form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input[type="text"] {
+  letter-spacing: 1px;
+}
+
+input[type="password"] {
+  letter-spacing: 5px;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+#login-btn {
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  background-color: #d5ffd0;
+  color: #102c57;
+  transition: all 0.3s ease;
+}
+
+#login-btn:hover {
+  background-color: #176b87;
+  color: white;
+}
